@@ -51,7 +51,7 @@ export interface FraudScore {
 })
 export class ApiService {
 
-  private readonly baseUrl = 'https://localhost:7213/api';
+  private readonly baseUrl = 'https://fraudlens-cognodb.onrender.com/api';
 
   constructor(private http: HttpClient) {}
 
